@@ -1,0 +1,62 @@
+/* HEADER */
+header {
+  display: flex;
+  background-color: #191414;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav {
+  width: 30%;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+header a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+header .logo-spotify {
+  height: 70px;
+  padding-left: 20px;
+}
+header a:hover {
+  text-decoration: underline;
+}
+
+/* BANNER */
+.section-banner {
+  background-image: url(https://wallpaperaccess.com/full/667769.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+/* MAIN */
+main {
+  display: flex;
+  height: 600px;
+  width: 100%;
+}
+main .section-cards-main {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+main .divs-filha {
+  height: 400px;
+  width: 250px;
+  background-color: blue;
+}
+main .img-div-filha1 {
+  background-image: url(imagens/chill.png);
+  background-position: center;
+  height: 200px;
+  border-bottom: 1px solid red;
+}/*# sourceMappingURL=style.css.map */
